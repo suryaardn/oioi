@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    background-color: #121111;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    height: 60px;
+    position:sticky;
+    top: 0;
+    left: 0;
+}
+.nav-list{
+    text-decoration: none;
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    
+}
+
+
+
+.hero{
+    background-image: url('/asset/img/andrew-neel-KVOxw7NEm-M-unsplash\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.hero-child{
+    display: flex;
+    align-items: center;
+}
+
+.hero-child > p{
+    color: rgb(255, 255, 255);
+    width: 500px;
+    display: inline-block;
+    font-size: 25px;
+}
+.hero-child > img{
+    width: 30px;
+    margin-right: 20px;
+}
+
+.detail-1{
+    
+}
+
+.detail-1 h1 {
+    position: absolute;
+   font-size: xx-large;
+}
+
+h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#content-img{
+    width: 100%;
+}
+
+.content-detail {
+    display: flex;
+    gap: 20px;
+}
+
+.content-detail > img{
+    width: 20px;
+    height: 20px;
+}
+.content-detail > p{
+    width: 280px;
+    line-height: 24px;
+    color: #5E5B5B;
+    font-size: 13px;
+}
+
+
+
+
+
+footer{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    background-color: #010101;
+}
+
+.input{
+    display: block;
+}
+
+
